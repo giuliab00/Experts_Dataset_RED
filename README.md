@@ -47,7 +47,8 @@ The transcript file (`anonymous_transcript.json`) has this structure:
 {
   "transcript_id": {
     "sample": "string (dialogue snippet)",
-    "phase": "string (task phase)"
+    "phase": "string (task phase)",
+    "match_index": number
   }
 }
 ```
