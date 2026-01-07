@@ -12,7 +12,7 @@ This repository contains datasets of **human–robot conversational interactions
   - Each entry includes:
     - **`sample`**: A dialogue snippet.  
     - **`phase`**: The task phase (e.g., *pre*, *mandala*, *postmandala*).
-    - **`match`**: To be ignored, usefull to reconstruct the subset of the human-transcribed samples.
+    - **`match_index`**: To be ignored, usefull to reconstruct the subset of the human-transcribed samples.
 
 - **`expert1_dataset.json`**  
   Contains annotations by **Expert 1**, mapping transcript IDs to emotional/behavioral categories.
